@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''Fabric script that creates and distributes an archive to your web servers, using deploy():
+'''Fabric script that creates and distributes
+an archive to your web servers, using deploy():
 '''
 
 import os
