@@ -3,8 +3,9 @@
 a minimal flask application
 """
 from flask import flask
-app=flask(__name__)
+app = flask(__name__)
 
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+@app.route('/', strict_slashes=False)
+def hello_bnb():
+    """displays hello bnb"""
+    return "Hello HBNB!"
