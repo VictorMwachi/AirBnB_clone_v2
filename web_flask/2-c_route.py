@@ -5,8 +5,7 @@ The application listens on 0.0.0.0, port 5000.
 Routes:
     /: Displays 'Hello HBNB!'
     /hbnb: Displays 'HBNB'
-    /c/<text>: isplay “C ” followed by the value of the text variable\
-    (replace underscore _ symbols with a space)
+    /c/<text>: isplay “C ” followed by the value of the text variable
 """
 from flask import Flask
 
