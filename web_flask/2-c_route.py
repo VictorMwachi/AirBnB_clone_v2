@@ -26,6 +26,7 @@ def hbnb():
 
 @app.route('/c/<text>', strict_slashes=False)
 def text():
+    """displays c followed by text"""
     return f"C {text}"
 
 
