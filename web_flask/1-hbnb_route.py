@@ -4,7 +4,7 @@ a minimal flask application
 The application listens on 0.0.0.0, port 5000.
 Routes:
     /: Displays 'Hello HBNB!'
-    /hbnb: display “HBNB”
+    /hbnb: Display “HBNB”
 """
 from flask import Flask
 
@@ -19,7 +19,7 @@ def hello_bnb():
 @app.route('/hbnb', strict_slshes=False)
 
 def hbnb():
-    """display HBNB"""
+    """Display HBNB"""
     return "HBNB""
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
