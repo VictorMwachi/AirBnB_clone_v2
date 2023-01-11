@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-'''Fabric script that deletes out-of-date archives, using the function do_clean'''
+'''
+Fabric script that deletes out-of-date archives,
+using the function do_clean
+'''
 import os
 from datetime import datetime
 from fabric.api import env, local, put, run, runs_once
