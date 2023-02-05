@@ -88,6 +88,10 @@ Install Flask
 
 $ pip3 install Flask
 
+![image](https://user-images.githubusercontent.com/20131567/216827460-9aed1273-5534-4ea1-8b1e-dd1db37f9ec9.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_t18Qw30vc" title="SE - Python Flask web framework" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Manual QA Review
 
 It is your responsibility to request a review for this project from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.
@@ -907,6 +911,10 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 ....
 
 In the browser:
+![image](https://user-images.githubusercontent.com/20131567/216827639-f224a3d8-6d84-4db5-89ad-2d5dcd23c8c1.png)
+
+![image](https://user-images.githubusercontent.com/20131567/216827656-b9731498-d3d8-4f14-9119-ca20a395ce69.png)
+
 
 Repo:
 
@@ -952,6 +960,9 @@ guillaume@ubuntu:~/AirBnB_v2$ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_p
 ....
 
 In the browser:
+![image](https://user-images.githubusercontent.com/20131567/216827687-52e866b4-c9ca-4430-bf7c-b562466d4453.png)
+
+![image](https://user-images.githubusercontent.com/20131567/216827696-d4102f1e-3b87-4e66-9fb3-b23974850df0.png)
 
 Repo:
 
