@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 a minimal flask application
@@ -20,8 +19,8 @@ def hello_bnb():
 
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
-    """displays HBNB"""
-    return 'HBNB'
+    """Display HBNB"""
+    return "HBNB"
 
 
 if __name__ == '__main__':
