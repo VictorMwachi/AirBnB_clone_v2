@@ -28,7 +28,7 @@ def hbnb():
 def text(text):
     """displays c followed by text"""
     text = text.replace("_", " ")
-    return f"C {text}"
+    return "C {}".formart(text)
 
 
 if __name__ == '__main__':
