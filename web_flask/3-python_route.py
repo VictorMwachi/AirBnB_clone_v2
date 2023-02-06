@@ -6,7 +6,7 @@ Routes:
     /: Displays 'Hello HBNB!'.
     /hbnb: Displays 'HBNB'.
     /c/<text>: Displays 'C' followed by the value of <text>.
-    /python/(<text>): Displays 'Python'followed by the value of text
+    /python/(<text>): Displays 'Python' followed by the value of <text>.
 """
 from flask import Flask
 
@@ -27,17 +27,22 @@ def hbnb():
 
 @app.route("/c/<text>", strict_slashes=False)
 def c(text):
-    """Displays 'C' followed by the value of <text>."""
+    """Displays 'C' followed by the value of <text>.
+
+    Replaces any underscores in <text> with slashes.
+    """
     text = text.replace("_", " ")
     return "C {}".format(text)
 
 
-@app.route('/python/<text>', strict_slashes=False)
-def python(text):
-    """“Python ”, followed by the value of the text variable"""
-    if text is NULL:
-        text = "is cool"
-    text = text.replace('_', ' ')
+@app.route("/python", strict_slashes=False)
+@app.route("/python/<text>", strict_slashes=False)
+def python(text="is cool"):
+    """Displays 'Python' followed by the value of <text>.
+
+    Replaces any underscores in <text> with slashes.
+    """
+    text = text.replace("_", " ")
     return "Python {}".format(text)
 
 
