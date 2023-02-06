@@ -35,6 +35,9 @@ def c(text):
 @app.route('/python/<text>', strict_slashes=False)
 def python(text):
     """“Python ”, followed by the value of the text variable"""
+    if text is NULL:
+        text = "is cool"
+    text = text.replace('_', ' ')
     return "Python {}".format(text)
 
 
