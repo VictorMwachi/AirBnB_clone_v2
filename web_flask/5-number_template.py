@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Starts a Flask web application.
-
 The application listens on 0.0.0.0, port 5000.
 Routes:
     /: Displays 'Hello HBNB!'.
@@ -41,10 +40,7 @@ def c(text):
 @app.route("/python", strict_slashes=False)
 @app.route("/python/<text>", strict_slashes=False)
 def python(text="is cool"):
-    """Displays 'Python' followed by the value of <text>
-
-    Replaces any underscores in <text> with slashes.
-    """
+    """Displays 'Python' followed by the value of <text>"""
     text = text.replace("_", " ")
     return "Python {}".format(text)
 
